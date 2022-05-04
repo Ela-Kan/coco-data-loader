@@ -7,8 +7,7 @@ The purpose of the code is to load in [COCO](https://cocodataset.org/#format-dat
 ## Acknowledgements
 
  - Example dataset taken from [GLENDA v1.5](http://ftp.itec.aau.at/datasets/GLENDA/) (*coco.json*) [1].
- The original use for this code was within a coursework project, seeking to achieve accurate multiclass segmentation of the above dataset—aiming to improve the 
- diagnosis of endometriosis.
+ The original use for this code was within a coursework project, seeking to achieve accurate multiclass segmentation of the above dataset—aiming to improve the diagnosis of endometriosis.
 
 
 
@@ -20,8 +19,8 @@ The purpose of the code is to load in [COCO](https://cocodataset.org/#format-dat
 ## Demo
 
 Example image loaded following random augmentations. (a) Original mask [1], (b) Original image [1], (c) Augmented mask, (d) Augmented image.
-![alt text](https://github.com/[Ela-Kan]/[coco-data-loader]/blob/[main]/Example_Augmentation.png?raw=true)
 
+![Endometriosis dataloading example](https://github.com/Ela-Kan/coco-data-loader/blob/main/Example_Augmentation.png?raw=true)
 
 ## Instructions for Usage
 
@@ -43,7 +42,7 @@ If using Windows and you have installation issues, please use the alternate comm
 `pip install pycocotools-windows`
 
 Alternatively, if this also doesn't work, try [this](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/62381):
-1) Install Visual C++ 2015 Build Tools (https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
+1) Install [Visual C++ 2015 Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
 2) Go to C:\Program Files (x86)\Microsoft Visual C++ Build Tools and run vcbuildtools_msbuild.bat
 3) Then, in conda environment: `pip install git+https://github.com/philferriere/cocoapi.git#egg=pycocotools^&subdirectory=PythonAPI`
 
